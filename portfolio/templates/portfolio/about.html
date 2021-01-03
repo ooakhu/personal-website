@@ -1,0 +1,37 @@
+{% extends "portfolio/base.html" %}
+{% load static %}
+
+
+{% block content %}
+    <div class="container">
+        <div class="wrapper">
+            <div class="smaller-con">
+                <div class="about-con">
+                    <h1 style="font-size: 40px">About me... </h1>
+                    <img src="{% static "thinking.png" %}" alt="image">
+                </div>
+                <div class="about-description">
+                    <p>
+                        I am Valerie Oakhu, a software developer and freelancer based in Lagos Nigeria.
+                        I specialize in web applications development using technologies such as Python, Javascript, Django,
+                        Django-restframework and React.
+                        <br>
+                        <br>
+                        I am passionate about community/inclusion and believe that being a developer means signing up for life long learning.
+                        And so opportunities that expose me to new technologies, help me give back, learn & grow on the job really excites me.
+                        <br>
+                        <br>
+                        In my free time, I enjoy working out, playing table tennis, trying to get over how cute my cat is and filling the DMs of my friends with memes :D
+
+                    </p>
+                    <h3>Interested in working together? I'd offer to buy you coffee... <br>
+                        But we are in a pandemic :( ... so <a href="{% url 'portfolio:contact' %}"><button class="start-btn">Email me</button></a> instead.
+                    </h3>
+                </div>
+            </div>
+                <img class="me" src="{% static "meee.svg" %}" alt="image">
+        </div>
+        </div>
+    </div>
+{% endblock content %}
+

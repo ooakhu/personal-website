@@ -1,0 +1,20 @@
+{% extends "portfolio/base.html" %}
+
+
+{% block content %}
+    <div class="container">
+        <div class="small-div">
+            <div class="smaller-div>">
+                <div class="content">
+                    <h1 style="font-size: 44px" class="animate__animated animate__bounce">Hi!</h1>
+                    <h1 style="font-size: 68px" class="animate__animated animate__bounce">I'm Valerie.</h1>
+                </div>
+                <div class="btn-con animate__animated animate__backInUp" >
+                    <button class="btn"><a href="{% url 'portfolio:about' %}">About me</a></button>
+                    <button class="btn"><a href="{% url 'portfolio:project' %}">My projects</a></button>
+                    <button class="btn"><a href="{% url 'portfolio:contact' %}">Contact me</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

@@ -1,0 +1,73 @@
+{% extends "portfolio/base.html" %}
+{% load static %}
+
+{% block content %}
+
+    <div class="container">
+        <div class="projects-con">
+            <div class="project-frames">
+                <h2 class="title">Invincible People</h2>
+                <p class="description"> A proposed website to create the opportunity for masculine women in Nigeria to gain tech skills.
+                </p>
+                <h4 class="built">Built with React, HTML, CSS</h4>
+                <div class="check">
+                    <img src="{% static "arrow.svg" %}" alt="image">
+                    <a href="" target="_blank" >Check It Out!</a>
+                </div>
+            </div>
+            <div class="project-frames">
+                <h2 class="title">OgaTailor</h2>
+                <p class="description">The backend API for a tailor shop. Handles authentication and processing of orders.</p>
+                <h4 class="built">Built with Djangorestframework</h4>
+                <div class="check">
+                    <img src="{% static "arrow.svg" %}" alt="image">
+                    <a href="" target="_blank" >Check It Out!</a>
+                </div>
+            </div>
+            <div class="project-frames">
+                <h2 class="title">WebScraper</h2>
+                <p class="description">A webscraper that scrapes targeted urls for specified information. Can be adjusted as needed.</p>
+                <h4 class="built">Built with Python</h4>
+                <div class="check">
+                    <img src="{% static "arrow.svg" %}" alt="image">
+                    <a href="" target="_blank" >Check It Out!</a>
+                </div>
+            </div>
+            <div class="project-frames">
+                <h2 class="title">Rental Website</h2>
+                <p class="description">Proposed website for a rental agency. Handles listings from admin and other agents.</p>
+                <h4 class="built">Built with Html, Css and Javascript</h4>
+                <div class="check">
+                    <img src="{% static "arrow.svg" %}" alt="image">
+                    <a href="" target="_blank" >Check It Out!</a>
+                </div>
+            </div>
+            <div class="others">
+                <h3>I have other projects on my Github, <br> <strong>Check them out!</strong></h3>
+                <div class="check">
+                    <img style="width: 25px; height: 100px" src="{% static "github.svg" %}" alt="image">
+                    <a style="font-size: 25px" href="" target="_blank" >    Github!</a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+{% endblock content %}
