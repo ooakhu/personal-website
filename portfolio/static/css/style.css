@@ -305,7 +305,6 @@ textarea:focus, input:focus{
 .projects-con {
     margin: auto;
     width: 1400px;
-    height: 750px;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
