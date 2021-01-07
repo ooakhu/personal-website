@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+asgiref = "==3.3.1"
+beautifulsoup4 = "==4.9.3"
+django-environ = "==0.4.5"
+django-livereload-server = "==0.3.2"
+pytz = "==2020.5"
+six = "==1.15.0"
+soupsieve = "==2.1"
+sqlparse = "==0.4.1"
+tornado = "==6.1"
+watchdog = "==1.0.2"
+Django = "==3.1.4"
+Pillow = "==8.1.0"
+websocket_client = "==0.57.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
