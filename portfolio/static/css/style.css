@@ -221,14 +221,12 @@ h1 {
     flex-direction: column;
     height: inherit;
     width: inherit;
-    /*background-color: #FF331F;*/
     align-items: center;
 }
 .contact {
     display: flex;
     height: 65px;
     width: 100%;
-    /*background-color: #6470DA;*/
     align-items: center;
     font-family: Roboto;
 
@@ -359,6 +357,7 @@ textarea:focus, input:focus{
     border: 2px solid black;
     margin: 15px;
     color: black;
+    transition: background-color 0.5s;
 }
 
 .check:hover {
