@@ -357,7 +357,7 @@ textarea:focus, input:focus{
     border: 2px solid black;
     margin: 15px;
     color: black;
-    transition: background-color 0.5s;
+    transition: background-color 0.9s;
 }
 
 .check:hover {
